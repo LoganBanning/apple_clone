@@ -1,0 +1,33 @@
+.first_component_container{
+    width:40vw;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.fc_button_container{
+    display:flex;
+    justify-content: space-between;
+    width:300px;
+    margin:auto;
+}
+.learn_more_button{
+    background-color: #00a8e8;
+    color:white;
+    border-radius: 25px;
+    height:60px;
+    width:140px;
+    border:none;
+    font-size:20px;
+}
+.buy_button{
+    background-color: #00a8e8;
+    color:white;
+    border-radius: 25px;
+    height:60px;
+    width:140px;
+    border:none;
+    font-size:20px;
+}
+.learn_more_button:hover, .buy_button:hover{
+    cursor:pointer;
+}
